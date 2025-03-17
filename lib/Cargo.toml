@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 alloy-sol-types = { workspace = true }
+ed25519-dalek = { path = "/Users/donglieu/253/curve25519-dalek/ed25519-dalek", features = ["digest"] }
+rand = "0.8"
+criterion = { version = "0.5", features = ["html_reports"] }
+alloy-primitives = "0.7.7"
